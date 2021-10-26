@@ -1,8 +1,8 @@
 import { Router, Route, Switch } from "react-router";
 import { createBrowserHistory }from 'history';
 
-import LoginPage from "../components/LoginPage";
-import SignupPage from "../components/SignupPage";
+import LoginPage from "../pages/LoginPage";
+import SignupPage from "../pages/SignupPage";
 
 const history = createBrowserHistory();
 
